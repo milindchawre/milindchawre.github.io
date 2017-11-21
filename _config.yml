@@ -1,7 +1,7 @@
 # Site settings
-title: Rob Hinds
-twitter_username: rob_hinds
-name: Rob Hinds
+title: Milind Chawre
+#twitter_username: 
+name: Milind Chawre
 
 # Build settings
 markdown: kramdown
@@ -10,101 +10,124 @@ markdown: kramdown
 #Links that will appear in the navbar
 primarylinks:
  - title: Blog
-   url: http://automateddeveloper.blogspot.com/
+   url: https://milindchawre.wordpress.com/
  - title: GitHub
-   url: https://github.com/robhinds
+   url: https://github.com/milindchawre
  - title: StackOverflow
-   url: http://stackoverflow.com/users/258813/rhinds
- - title: DZone
-   url: https://dzone.com/users/899489/rhinds.html
+   url: https://stackoverflow.com/users/6790948/mchawre
+# - title: DZone
+#   url: https://dzone.com/users/899489/rhinds.html
  - title: LinkedIn
-   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
+   url: https://www.linkedin.com/in/milind-chawre
 
 #Any buzzword skills you want to include
 skills:
- - Groovy
- - Spring MVC
- - Spring Boot
- - Gradle
- - Java
- - JPA
- - SQL
- - REST
- - Tech Architecture
+ - Docker
+ - Terraform
+ - Packer
+ - Vagrant
+ - Ansible
+ - Linux
+ - Mesos
+ - kubernetes
+ - Open source contributor
+ - Twistlock
+ - Clair
+ - Centos
+ - Ubuntu
+ - AWS
+ - Openstack
+ - IBM Cloud (Bluemix)
+ - BASH
+ - Python
+ - DevOps
+ - SRE (Site Reliability Engineering)
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default?alt=rss
+#blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default?alt=rss
 
 #Work experience is required
 roles:
- - title: Senior Engineer
-   start: 2016
+ - title: Software Engineer
+   start: 2015
    end: Ongoing
-   employer: Emerald Street Ventures
-   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
- - title: Senior Engineer
-   start: 2012
-   end: 2016
-   employer: Covestor
-   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> I am a senior engineer working closely with the CTO, working across the full-stack, I am involved in all aspects of the technology including the website and back-end services.
- - title: Associate Manager
-   start: 2005
-   end: 2012
-   employer: Accenture
-   description: A range of functional and technical roles, primarily working on client sites in Financial Services.
+   employer: GSLAB (Great Software Laboratory Pvt. Ltd)
+   description: <a target='_blank' href="https://www.gslab.com/">GSLab</a> works with customers building innovative products and services, helping them nurture their ideas, staying with them during market validation and scaling them into viable businesses. <br/> I am a Software engineer working on cutting edge technologies in cloud computing, containers and devops.
+ #- title: Senior Engineer
+ #  start: 2012
+ #  end: 2016
+ #  employer: Covestor
+ #  description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> I am a senior engineer working closely with the CTO, working across the full-stack, I am involved in all aspects of the technology including the website and back-end services.
+ #- title: Associate Manager
+ #  start: 2005
+ #  end: 2012
+ #  employer: Accenture
+ #  description: A range of functional and technical roles, primarily working on client sites in Financial Services.
 
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.)
-   date: 2003
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+ - level: Bachelor of Engineering (BE)
+   date: 2015
+   subject: Computer Science
+   school: (<a target='_blank' href="http://www.mitpune.com/">MIT, Pune</a>)
 
 #This section is optional (as is the image link below)
-coursera:
-   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
-   courses:
-    - title: Functional Programming Principles in Scala
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: September 16, 2013
-    - title: Algorithms Design and Analysis, Part 1
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
-      date: April 28, 2014
+#coursera:
+#   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
+#   courses:
+#    - title: Functional Programming Principles in Scala
+#      link: https://www.coursera.org/course/progfun
+#      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+#      date: September 16, 2013
+#    - title: Algorithms Design and Analysis, Part 1
+#      link: https://www.coursera.org/course/progfun
+#      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
+#      date: April 28, 2014
 
 #List of interesting Github repo/projects to include - optional
 github:
- - robhinds/learning-neural-networks
- - robhinds/akka-http-rest-api-sample
- - robhinds/twitter-sentiment-analysis
- - robhinds/spring-reactor-twitter
- - robhinds/microservices
- - robhinds/spring-social-geeklist
- - robhinds/spring-social-stackoverflow
- - robhinds/food2vec
- - robhinds/SpringMongoIntegrationExample
- - robhinds/SpringNeo4JWebApp
- - robhinds/AndroidChuckQuiz
- - robhinds/AndroidRssReader
+ - milindchawre/docker
+ - milindchawre/docker.github.io
 
 #Stackoverflow flair is optional
 stackoverflow:
-   profileurl: http://stackoverflow.com/users/258813/rhinds
-   flairimageurl: http://stackoverflow.com/users/flair/258813.png
+   profileurl: https://stackoverflow.com/users/6790948/mchawre
+   flairimageurl: https://stackoverflow.com/users/flair/6790948.png?theme=clean
 
 #Mobile apps section is optional
-apps:
- - name: Chuck the Quiz
-   platform: Android
-   url: https://play.google.com/store/apps/details?id=com.tmm.android.chuck&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS50bW0uYW5kcm9pZC5jaHVjayJd
-   description: A basic early Android app (open sourced)
+#apps:
+# - name: Chuck the Quiz
+#   platform: Android
+#   url: https://play.google.com/store/apps/details?id=com.tmm.android.chuck&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS50bW0uYW5kcm9pZC5jaHVjayJd
+#   description: A basic early Android app (open sourced)
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I have recently worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in addition to others.  In my current role Groovy is the primary language used - and I am familiar with many of the languages features and quirks (including writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>). <br/><br/>
-   <strong>Web Development</strong>: My server side web development experience has largely been based on the Spring MVC framework (although current role uses ColdFusion for server side web stack). I have also worked with some client side technology, having used jQuery, Bootstrap, LESS, SASS and have also experimented with other interesting technologies such as Backbone/Underscore/Require.<br/><br/>
-   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, Gradle, Sonar and Jenkins. I have experience with an array of testing tools and technologies.<br/><br/>
-   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, a variety of social APIs (Twitter etc) and cloud platforms such as CloudFoundry/OpenShift/AppFog/Parse. <br/><br/>
-   As part of Nerdability, I created, and am now primary contributor to, two Spring projects - <a target='_blank' href="https://github.com/robhinds/spring-social-geeklist">Spring-Social-Geeklist</a> and <a target='_blank' href="https://github.com/nerdability/spring-social-khan-academy">Spring-Social-Khan-Academy</a>, which provide core integration with those third-party APIs on top of the Spring Social framework. They are both listed as community projects: <a target='_blank' href="http://projects.spring.io/spring-social/">http://projects.spring.io/spring-social/</a>. <br/><br/>
-   I write a blog covering technical and opinion articles that can be found here: <a target='_blank' href="http://automateddeveloper.blogspot.com/">automateddeveloper.blogspot.com</a> (I am also a <a target='_blank' href="https://dzone.com/users/899489/rhinds.html">DZone MVB</a>)
+   <strong><pre class="tab" style="background-color:grey">Cisco IoT Platform             [Sept 2015 - ongoing]                                          Duration 2+ years</pre></strong>
+   <strong>Scope of Project</strong>: Cisco IOTSP is a platform to solve common challenges in IoT environments where devices and applications are highly distributed. This new class of platform, an IoT data fabric, helps you put compute power where you need it. Get the right data to the right applications at the right time to drive better business outcomes. Now it’s a part of <a target='_blank' href="https://www.cisco.com/c/en/us/solutions/internet-of-things/iot-kinetic.html">Cisco kinetic</a> product.<br>
+   <dl>
+   <dt><strong>Contributions</strong>:</dt>
+   <dd>- Working on complex enterprise application in Cloud Infrastructure domain.</dd>
+   <dd>- Experience in building fairly complex micro-services based IoT-platform using Docker, Mesos, Marathon, Zookeeper, Consul DNS discovery, HAProxy, Chronos, Artifactory.</dd>
+   <dd>- Worked on infrastructure automation using tools like Terraform, Ansible, Packer, Docker, Vagrant, Cloud-init.</dd>
+   <dd>- Automated machine ami creation using Hashicorp Packer tool. These ami’s are pre-baked with necessary packages already installed, so that the machine provisioning time is faster.</dd>
+   <dd>- Development and implementation of various AWS public cloud offerings like EC2, RDS, S3, Route53, VPC, EBS, EFS, aws spot instance, aws autoscaling groups, etc</dd>
+   <dd>- Developing docker images for infra components like mesos, consul, zookeeper, etc.</dd>
+   <dd>- Handled system-level upgrades like OS and kernel upgrades.</dd>
+   <dd>- Experience with monitoring stack like TIGK (Telegraf Influxdb Grafana Kapacitor).</dd>
+   <dd>- Experience working in Linux environment – CentOS, Ubuntu.</dd>
+   <dd>- Extensively worked on Agile (SCRUM) development model.</dd>
+   <dd>- Experience in shell and python scripting.</dd>
+   <dd>- Worked with aws and openstack clients like awscli, python-openstackclient. </dd>
+   <dd>- Worked on applying infosec changes for OS and container hardening.</dd>
+   <dd>- Worked on applying vulnerability patches like Dirty COW, spectre, meltdown.</dd>
+   <dd>- Experience with Openstack based private cloud (Cisco Infrastructure Services).</dd>
+   <dd>- Sound knowledge of container runtime like Docker (runc, containerd), container orchestrator like Mesos, kubernetes.</dd>
+   <dd>- On-call in ops team used tools like pagerduty, pingdom ,statuspage.</dd>
+   <dd>- Experience with Jira ticketing system.</dd>
+   <dd>- Experience with Confluence, a collaboration software.</dd>
+   <dd>- Linux and container debugging skills.</dd>
+   <dd>- Open source contribution in Docker.</dd>
+   </dl>
+   <strong>Technologies</strong>: Docker, Mesos, Marathon, Zookeeper, Consul, Chronos, Artifactory, Git, Jenkins, Terraform, Ansible, Packer, Vagrant, AWS, Openstack, Vagrant, Cloud-init, Telegraf, Influxdb, Grafana, Kapacitor, CentOS, Ubuntu, shell, python, awscli, infosec, kubernetes, pagerduty, pingdom, statuspage, Jira.
+
