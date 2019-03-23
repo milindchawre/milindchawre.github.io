@@ -40,6 +40,10 @@ skills:
  - IBM Cloud (Bluemix)
  - BASH
  - Python
+ - MongoDB
+ - Elasticsearch
+ - Kibana
+ - Jenkins
  - DevOps
  - SRE (Site Reliability Engineering)
 
@@ -49,8 +53,13 @@ skills:
 #Work experience is required
 roles:
  - title: Software Engineer
-   start: 2015
+   start: August 2018
    end: Ongoing
+   employer: TomTom
+   description: <a target='_blank' href="https://www.tomtom.com/">TomTom</a> is a Dutch company that produces traffic, navigation and mapping products. It also makes action cameras, GPS sport watches, fleet management systems, and location-based products. Founded in 1991 and headquartered in Amsterdam.
+ - title: Software Engineer
+   start: July 2015
+   end: August 2018
    employer: GSLAB (Great Software Laboratory Pvt. Ltd)
    description: <a target='_blank' href="https://www.gslab.com/">GSLab</a> works with customers building innovative products and services, helping them nurture their ideas, staying with them during market validation and scaling them into viable businesses. <br/> I am a Software engineer working on cutting edge technologies in cloud computing, containers and devops.
  #- title: Senior Engineer
@@ -103,7 +112,31 @@ stackoverflow:
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong><pre class="tab" style="background-color:grey">Cisco IoT Platform             [Sept 2015 - ongoing]                                          Duration 2+ years</pre></strong>
+   <strong><pre class="tab" style="background-color:grey">Prithvi (Priority Through Varied Information)             [Aug 2018 - Ongoing]              Duration 7+ months</pre></strong>
+   <strong>Scope of Project</strong>: Prithvi is an Map Quality Specification (MQS) tool, which defines the map quality. This system gives priority of particular location so that map editors can priorities there map editing tasks.<br>
+   <dl>
+   <dt><strong>Contributions</strong>:</dt>
+   <dd>- Dockerizing the java applications.</dd>
+   <dd>- Setting up AWS infrastructure using terraform and ansible.</dd>
+   <dd>- Used different AWS services like EC2, VPC, IAM, Route53, ECR, etc.</dd>
+   <dd>- Setting up Elasticsearch and kibana.</dd>
+   <dd>- Configured HaProxy load balancer.</dd>
+   <dd>- Configured jenkins job to automate the build and deployment process.</dd>
+   </dl>
+   <strong>Technologies</strong>: Java, HaProxy, Elasticsearch, Kibana, Docker, AWS, Jenkins, Terraform, Ansible.<br><br><br><br>
+   <strong><pre class="tab" style="background-color:grey">SAMBA (Source AutoMation and Blending Agent)              [Aug 2018 - Dec 2018]              Duration 5 months</pre></strong>
+   <strong>Scope of Project</strong>: SAMBA is a unified source database that will help in map making process. It ingests, and aggregates leads (map data) from various sources. This system overall helps map editors in there map editing tasks.<br>
+   <dl>
+   <dt><strong>Contributions</strong>:</dt>
+   <dd>- Dockerizing the Nodejs frontend and java backend applications.</dd>
+   <dd>- Setting up AWS infrastructure using terraform and ansible.</dd>
+   <dd>- Used different AWS services like EC2, VPC, IAM, Route53, ECR, etc.</dd>
+   <dd>- Setting up MongoDB replicaset.</dd>
+   <dd>- Setting up monitoring system using percona monitoring tool.</dd>
+   <dd>- Configured jenkins job to automate the build and deployment process.</dd>
+   </dl>
+   <strong>Technologies</strong>: Nodejs, Java, MongoDB, Percona-monitoring, Docker, AWS, Jenkins, Terraform, Ansible.<br><br><br><br>
+   <strong><pre class="tab" style="background-color:grey">Cisco IoT Platform                                   [Sept 2015 - Aug 2018]                  Duration 3 years</pre></strong>
    <strong>Scope of Project</strong>: Cisco IOTSP is a platform to solve common challenges in IoT environments where devices and applications are highly distributed. This new class of platform, an IoT data fabric, helps you put compute power where you need it. Get the right data to the right applications at the right time to drive better business outcomes. Now it’s a part of <a target='_blank' href="https://www.cisco.com/c/en/us/solutions/internet-of-things/iot-kinetic.html">Cisco kinetic</a> product.<br>
    <dl>
    <dt><strong>Contributions</strong>:</dt>
@@ -130,4 +163,3 @@ additionalinfo: |
    <dd>- Open source contribution in Docker.</dd>
    </dl>
    <strong>Technologies</strong>: Docker, Mesos, Marathon, Zookeeper, Consul, Chronos, Artifactory, Git, Jenkins, Terraform, Ansible, Packer, Vagrant, AWS, Openstack, Vagrant, Cloud-init, Telegraf, Influxdb, Grafana, Kapacitor, CentOS, Ubuntu, shell, python, awscli, infosec, kubernetes, pagerduty, pingdom, statuspage, Jira.
-
